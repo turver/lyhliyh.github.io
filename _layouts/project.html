@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="inner">
+  {{ content }}
+  <div class="fancy center convinced">
+	{% if page.language == nil %}
+    Interested? Here's my <a href="https://github.com/lyhliyh">Github</a> and <a href="/Yahui_Li.pdf">Resume</a>.
+	{% else %}
+	如果你对我的项目感兴趣，可以关注我的<a href="https://github.com/lyhliyh">Github</a> 和 <a href="/Yahui_Li.pdf">简历</a>.
+	{% endif %}
+  </div>
+</div>
