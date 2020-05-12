@@ -4,7 +4,7 @@
 
 ### 主题预览
 
-[Yahui Li's Homepage](http://lyhliyh.github.io/)。
+[Yahui Li's Homepage](http://lyhliyh.github.io/)
 
 
 ### 安装步骤
