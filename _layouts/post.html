@@ -21,10 +21,14 @@ layout: default
   	{{ page.date | date: "%Y" }}年{{ page.date | date: "%m" }}月{{ page.date | date: "%d" }}日
   	<i class="space"></i>
   	<i class="fa fa-archive"></i>
+	{% if page.language == nil %}
   	<a class="tag" href="{{ site.url }}/blog/categories.html#{{ page.categories }}">{{ page.categories }}</a>
+	{% else %}
+	<a class="tag" href="{{ site.url }}/cn/categories.html#{{ page.categories }}">{{ page.categories }}</a>
+	{% endif %}
   	<i class="space"></i>
-<!--  	<i class="fa fa-tags"></i>
-  	{% for tag in page.tags %}
+ 	<i class="fa fa-tags"></i>
+<!--  	{% for tag in page.tags %}
   	    <a class="tag" href="{{ site.url }}/tag/#{{ tag }}">{{ tag }}</a>
   	    <i class="space"></i>
   	{% endfor %} -->

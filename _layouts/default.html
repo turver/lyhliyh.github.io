@@ -44,7 +44,7 @@
 		<a href="/cn/timeline">时光轴</a>
 		<!-- <a href="/Yahui_Li.pdf">简历</a> -->
         <a href="https://github.com/lyhliyh">Github</a>
-        <a class="language" href="{% if page.layout == 'post' %}/blog/{{ page.mypath }}{% else %}/{{ page.mypath }}{% endif %}" style="font-weight: 100;">English</a>
+        <a class="language" href="{% if page.layout == 'post' %}/blog/{% else %}/{{ page.mypath }}{% endif %}" style="font-weight: 100;">English</a>
       </nav>
       {% else %}
       <nav>
@@ -59,7 +59,7 @@
 		    <a href="/timeline/">Timeline</a>
 			<!-- <a href="/Yahui_Li.pdf">Resume</a> -->
         <a href="https://github.com/lyhliyh">GitHub</a>
-        <a class="language" href="{% if page.layout == 'post' %}/blog/{{ page.mypath }}{% else %}/cn/{{ page.mypath }}{% endif %}" style="font-weight: 400;">中文</a>
+        <a class="language" href="{% if page.layout == 'post' %}/cn/blog{% else %}/cn/{{ page.mypath }}{% endif %}" style="font-weight: 400;">中文</a>
       </nav>
 	    {% endif %}
       
