@@ -10,7 +10,7 @@
 ### 安装步骤
 1. 配置`_config.yml`，比如把title修改成你自己； 
 2. 修改英文页面[default.html](https://github.com/willard-yuan/willard-yuan.github.io/blob/master/_layouts/default.html)，把里面出现的固定的url更改成你的url； 
-3. 修改中文页面[index.html](https://github.com/willard-yuan/willard-yuan.github.io/blob/master/cn/index.html)，主要是中文页面的一些内容； 
+3. 修改中文页面cn/[index.html](https://github.com/willard-yuan/willard-yuan.github.io/blob/master/cn/index.html)，主要是中文页面的一些内容； 
 
 ### 感谢
 
